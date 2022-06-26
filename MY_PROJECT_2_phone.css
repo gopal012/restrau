@@ -1,0 +1,80 @@
+/* ---------------------------------------------NAVIGATION BAR--------------------------------------------- */
+#navbar{
+    flex-direction: column;
+}
+
+#logo img{
+    height: 50px;
+    width: 75px;
+}
+
+#navbar ul li{
+    font-size: 1rem;
+}
+#navbar ul li a{
+    padding: 0px 20px 7px;
+}
+
+
+/* ---------------------------------------------HOME SECTION--------------------------------------------- */
+#home{
+    padding: 0px 0px;
+}
+
+#home::before{
+}
+
+#home h1{
+    height: 40px;
+}
+#home .h1prime {
+    font-size: 1.2rem;
+}
+#home p{
+    font-size: 1rem;
+    width: 18rem;
+    padding: 1rem 0.2rem 1rem 0.5rem;
+    margin: 0.5rem 0.2rem 0.5rem 0.5rem;
+}
+
+
+/* ---------------------------------------------SERVICES SECTION--------------------------------------------- */
+#services{
+    flex-direction: column;
+    /* width: 18rem; */
+}
+#services .box{
+    margin: 10px 2rem
+}
+#services .box img{
+    height: 5rem;
+}
+
+
+/* ---------------------------------------------CLIENT SECTION--------------------------------------------- */
+#clients img{
+    height: 2.8rem;
+    margin: 1rem 0.5rem;
+}
+.client-item-2{
+    height: 91px;
+    width: 91px;
+}
+
+
+/* ---------------------------------------------CONTACT US SECTION--------------------------------------------- */
+#contact button{
+    margin: 10px 0px 10px 12px;
+    padding: 3px 24px;
+    width: 100%;
+}
+
+#contact-box div {
+    font-size: 1rem;
+}
+
+/* ---------------------------------------------FOOTER SECTION--------------------------------------------- */
+
+
+
+/* ---------------------------------------------UTILITY CLASSES--------------------------------------------- */
